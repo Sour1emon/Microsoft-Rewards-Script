@@ -1,7 +1,7 @@
 {
     "baseURL": "https://rewards.bing.com",
     "sessionPath": "sessions",
-    "headless": false,
+    "headless": true,
     "parallel": false,
     "runOnZeroPoints": false,
     "clusters": 1,
@@ -41,11 +41,11 @@
         "proxyBingTerms": true
     },
     "webhook": {
-        "enabled": false,
-        "url": ""
+        "enabled": true,
+        "url": "https://discord.com/api/webhooks/1434316920953503900/Md78r2l9EKbCDptjEDkwrZ_-41Jod6T8_OIocCz_MfCb2vAke5Zi7kTfZT8R3uz_ISko"
     },
     "conclusionWebhook": {
-        "enabled": false,
-        "url": ""
+        "enabled": true,
+        "url": "https://discord.com/api/webhooks/1434317034912481401/04FTSlqQ7SAHYbGZWYT5tL7iOFXJNEjrHYZNv1fO0yusneL8mhVS-TpeN1mXM4K5yo_T"
     }
 }
